@@ -1,20 +1,20 @@
 # Magic X
 
-I always dreamed of kind of project involving custom hardware and low-level software development. And it looks like your very own Game Console might be the coolest thing to do in the realm, right?
+I always dreamed of some project dealing with original hardware and software development right from the bare bones level. And it looks like your very own Game Console might be the one of coolest possible thing to do in that realm, right?
 
-So a year ago I've started looking around and tinkering with some reborn nostalgia consoles like SNES Classic Mini and Analogue Sega built on FPGA as well completely new beasts like virtual console PICO-8.
+So a year ago I've started looking around and tinkering with some nostalgia consoles like SNES Classic Mini (just a mini box with some Nintendo titles inside) and Analogue Sega (much better thing built on FPGA and working with real caartridges) as well completely new beasts like completely virtual (call it FANTASY) console PICO-8. Yep, I've even bought my copy for REAL $15.
 
 # CPU
 
-There were two popular CPUs gathered iconic status over the years: MOS 6502 and Zilog Z80. 
+There were two popular CPUs gathered iconic status over those hippie years: MOS 6502 and Zilog Z80. First was designed after a Motorola 6800 and second is after Intel 8080 which were not so popular within developers. Ugh, how's that was even possible?  
 
-The first was used in 8-bit Atari line, Apple computers, Commodore 64, Nintendo NES and many others.
+The MOS 6502 was used within 8-bit Atari arcades, mini-computers (400/800, XL/XE), Apple II, Commodore 64/128, Nintendo NES (and many-many others, of course).
 
-The second went as ZX Spectrum, Amstrad family and some others, popular within Japan and Europe.
+The second went straight into Sinclairs, including ZX Spectrum, Amstrad family and some others, popular mostly within Japan and Europe.
 
-I used to own and use many 6502-based systems including Soviet clone of Apple ][, Asian replic of NES and real Ataris and Commodores.
+I used to own and play with many 6502-based systems including Soviet clone of Apple II, Asian replic of NES and real Ataris and Commodores that were popular at computer clubs of USSR.
 
-So after some research on history I've decided to use 6502 as my target for Magic brains.
+So after some research on history I've decided to use 6502 as my target CPU for brains of Magic console.
 
 # 10-bit
 
