@@ -10,7 +10,7 @@ Yeah, how great it would be to have something modern and vintagee at the same ti
 
 Definitely, I'd like the idea my children might dream and wait for Christmas their own generation consoles that are: NOR Playstations, NOR xBoxes, NOR other brands their parents were aware of in their childhood (NES, Atari 2600, etc).
 
-So, someone (me) have to do it :)
+So, someone (me) have to do it :) And Magic X (or maybe Magix) is the draft name for it.
 
 # CPU
 
