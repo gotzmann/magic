@@ -20,7 +20,9 @@ So after some research on history I've decided to use 6502 as my target for Magi
 
 Most of 8-bit consoles and computers had screen resolutions around 300x200 pixels for width and height and really poor palletes of around 16 colors. That allowed them to fit into smaller RAM and still had some reasonable graphic within typical NTSC/PAL CRT TV sets.
 
-My first priority to achieve the same nostalgic pixelate look but target much bigger modern FullHD / 4K LED panels. So I kinda like to have a common integer divider between my resolution and 1920x1080. It will not hurt if I'll be able to use popular small LCDs too, which usually built around numbers like 240x320 or 640x480. And it always great if resolution will be dividable by 8 too.
+For example, Gameboy Advance had resolution of 240x160 (smallest reasonable numbers for vertical pixels), Nintendo NES used 256x240 (largest vertical numbers between all consoles) and Commodore64 had 320x200 (wide screen).
+
+My first priority was and now to achieve the same nostalgic pixelate look of classic 8-bit games but target much bigger modern FullHD / 4K LED panels. So I kinda like to have a common integer divider between my resolution and 1920x1080. It will not hurt if I'll be able to use popular small LCDs too, which usually built around numbers like 240x320 or 640x480. And it always great if resolution will be dividable by 8 too.
 
 After some draft calculations I start thinking about which will suite me best:
 
@@ -29,6 +31,13 @@ After some draft calculations I start thinking about which will suite me best:
 - [C] 480x270 - 1/4th of FullHD, divides by 10 only
 
 To be honest, I really like the A variant most, but afraid it will be too small to implement good looking game. And C might be too big to work with and not worth it. So I'm going to use 384x216 for now.
+
+Some reading on how to choose resolution:
+
+https://rpgmaker.net/games/11197/blog/22259/
+https://www.braveatnight.co.uk/post/5-tips-on-how-to-start-your-own-pixel-art
+https://twitter.com/DavitMasia/status/1004742082752401408
+https://twitter.com/davitmasia/status/1050129834968518657
 
 # Audio
 
