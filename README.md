@@ -54,8 +54,8 @@ But after so many years of using high-level languages with garbage collector, pr
 
 Some candidates were:
 
-- Golang as it fast, reasonably good when dealing with C. There also TinyGo which works on ESP32 and Arduino and have much-much faster FFI which is nice!
-- Zig which cross-platform building system and C FFI really shines. But there no strings! Clummsy syntax. And annoying memory allocators everywhere.
-- Odin is really great! Syntax looks very similar to Go. It much better for games development and has a better FFI. So that my second best candidate after Golang.
-- Vlang looks good. But there so many negative PR within Hacker News for the previous years and it seems, it still uses C as an intermediate language and compiles with TinyCC which distracts me.
--  
+- [0] Pure C - best of the best, as most of low-level gamedev libraries for graphics and audio and even popular 6502 emulators are still written in that bespoken language. It just me who do not feel comfortable working with all the gotchas of manual memory management, string handling, etc.
+- [1] Golang - robust, fast, well-known by me, reasonably good interop with with C. There also [1+] TinyGo which support all major platforms as well ESP32 and Arduino microcontrollers and have much-much faster FFI which is nice!
+- [2] Odin is really great! Syntax looks very similar to Go. It much better for games development and has a better FFI. I'm just worried about tooling, IDE support and debugging, cause it not so popular as other candidates here. Still, that is my second best candidate after Golang.
+- [3] Zig which cross-platform building system and C FFI really shines. But there no strings! Clumsy syntax. And annoying memory allocators everywhere. Looks like much harder target for me.
+- [4] Vlang looks easy and cool on my eyes, similar to Odin. But there so many negative PR within Hacker News for the previous years and seems, it still uses C as an intermediate language and compiles with TinyCC which distracts me.
