@@ -35,8 +35,11 @@ To be honest, I really like the A variant most, but afraid it will be too small 
 Some reading on how to choose resolution:
 
 https://rpgmaker.net/games/11197/blog/22259/
+
 https://www.braveatnight.co.uk/post/5-tips-on-how-to-start-your-own-pixel-art
+
 https://twitter.com/DavitMasia/status/1004742082752401408
+
 https://twitter.com/davitmasia/status/1050129834968518657
 
 # Audio
