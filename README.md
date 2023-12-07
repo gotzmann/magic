@@ -4,6 +4,14 @@ I always dreamed of some project dealing with original hardware and software dev
 
 So a year ago I've started looking around and tinkering with some nostalgia consoles like SNES Classic Mini (just a mini box with some Nintendo titles inside) and Analogue Sega (much better thing built on FPGA and working with real caartridges) as well completely new beasts like completely virtual (call it FANTASY) console PICO-8. Yep, I've even bought my copy for REAL $15.
 
+The goal of all those activities was to grasp some insights into how it feels to dive into 8-bit nostalgia? And how one could build something cool and new after 50 years from the Homebrew Revolution?
+
+Yeah, how great it would be to have something modern and vintagee at the same time... new 8-bit console with real cartridges, joysticks... and some new games, not just remakes of world classics.
+
+Definitely, I'd like the idea my children might dream and wait for Christmas their own generation consoles that are: NOR Playstations, NOR xBoxes, NOR other brands their parents were aware of in their childhood (NES, Atari 2600, etc).
+
+So, someone (me) have to do it :)
+
 # CPU
 
 There were two popular CPUs gathered iconic status over those hippie years: MOS 6502 and Zilog Z80. First was designed after a Motorola 6800 and second is after Intel 8080 which were not so popular within developers. Ugh, how's that was even possible?  
