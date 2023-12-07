@@ -16,6 +16,20 @@ I used to own and use many 6502-based systems including Soviet clone of Apple ][
 
 So after some research on history I've decided to use 6502 as my target for Magic brains.
 
+# 10-bit
+
+Yeah, I've decided to build the thing with 8-bit processor in mind, but, man... there so many unnecessary complication, burden and mess even doing simple things with those older chips, just stopping the progress and creativity! Like when dealing with the screen where you'd like to calculate {X,Y} coordinates of your hero and messing with two additions instead just one, cause the screen width is 320 but you have only max 256 available within one byte.
+
+So after some thought I've decided to try something esoteric. How about 10-bit CPU in your machine? I'm sure that's the FIRST 10-bit CPU in the world! Remember, I'm going to have a real thing with some real 10-bit CPU based on FPGA maybe?
+
+What the pros? Numerous! 
+
+Now we are able to calculate anything within 1024 with just one operation and one register. Any screen corner becomes easily accessible.
+
+Next, combining two 10-bit registers, we jumping far above 65K memory limit. No paging needed anymore. 20-bits allows us to address 1Mb memory. How cool is that? Much better graphics and audio will be easily avaiable for game developers.
+
+How many more colors we might use with 10-bit instead of ugly 16 old school color-pallettes? Stealth bit + 9 RGB bits = 1 + 3R + 3G + 3B = 512 colors!
+
 # Screen
 
 Most of 8-bit consoles and computers had screen resolutions around 300x200 pixels for width and height and really poor palletes of around 16 colors. That allowed them to fit into smaller RAM and still had some reasonable graphic within typical NTSC/PAL CRT TV sets.
